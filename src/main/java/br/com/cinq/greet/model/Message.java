@@ -1,9 +1,5 @@
 package br.com.cinq.greet.model;
 
-import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
-import org.springframework.boot.orm.jpa.EntityScan;
-import org.springframework.web.bind.annotation.ModelAttribute;
-
 import java.io.Serializable;
 
 /**
