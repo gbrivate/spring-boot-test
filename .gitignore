@@ -4,5 +4,6 @@
 /.idea
 /target
 /.project
+/greet-server.iml
 /node_modules
 /src/main/webapp/bower_components
