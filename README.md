@@ -12,4 +12,4 @@ Included BOWER configuration for AngularJS and Bootstrap. Just run the following
 
 ## Just access the server.
 
-http://localhost:8080/
+* http://localhost:8080/
