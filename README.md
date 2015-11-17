@@ -7,6 +7,9 @@ Included BOWER configuration for AngularJS and Bootstrap. Just run the following
 * npm install bower -g
 * bower install
 
+## Run Spring boot
+* Run the SpringBoot application.
+
 ## Just access the server.
 
 http://localhost:8080/
