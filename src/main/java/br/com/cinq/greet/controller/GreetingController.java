@@ -1,7 +1,6 @@
 package br.com.cinq.greet.controller;
 
 import br.com.cinq.greet.model.Message;
-import br.com.cinq.greet.exception.NotFoundException;
 import br.com.cinq.greet.service.IGreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
