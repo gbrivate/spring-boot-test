@@ -35,7 +35,7 @@ public class MessageOfDayDB {
     }
 
     /**
-     * Create the stander message.
+     * Create the default message.
      */
     private void generateInitialMessage(){
         // create the stander message.
@@ -61,7 +61,7 @@ public class MessageOfDayDB {
      * @return Message;
      */
     public static Message retrieveMessage(){
-        // find the defautl message.
+        // find the default message.
         findMessageByID(1L);
         return foundMessage;
     }
