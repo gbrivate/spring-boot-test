@@ -10,15 +10,15 @@
         .module('greetingApp')
         .controller('greetingController', greetingController);
 
-    greetingController.$inject = ['$scope','GreetingService','MessageGlobal'];
+    greetingController.$inject = ['GreetingService','MessageGlobal'];
 
-    function greetingController($scope,GreetingService, MessageGlobal) {
+    function greetingController(GreetingService, MessageGlobal) {
         // vm => view model (controller)
         /* jshint validthis: true */
         var vm = this;
 
         /* the reason I created this variable is because
-           I don´t want to change the old description on the screen before do the update.
+           I donï¿½t want to change the old description on the screen before do the update.
          */
         vm.newDescription = '';
         // used to retrieve the Message by id.
