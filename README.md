@@ -6,3 +6,7 @@ Included BOWER configuration for AngularJS and Bootstrap. Just run the following
 ## Run npm install
 * npm install bower -g
 * bower install
+
+## Just access the server.
+
+http://localhost:8080/
