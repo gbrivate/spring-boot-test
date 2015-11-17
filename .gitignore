@@ -4,3 +4,5 @@
 /.idea
 /target
 /.project
+/node_modules
+/src/main/webapp/bower_components
