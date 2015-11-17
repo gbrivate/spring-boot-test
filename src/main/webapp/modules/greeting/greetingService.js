@@ -29,8 +29,8 @@
 
         // method GET, retrieve the message given the id.
         function retrieveMessageByID(request) {
-            var retrieveMessage = $resource(CONFIG.apiURL + 'retrieveMessage',{id:'@id'});
-            return retrieveMessage.get(request);
+            var retrieveMessageByID = $resource(CONFIG.apiURL+request);
+            return retrieveMessageByID.get();
         }
 
         // method POST, update the message given the Message object.

@@ -45,6 +45,7 @@ public class EndpointTest {
 	@Test
 	public void retrieveMessageOfDayByID() {
 		Message result = restTemplate.getForObject(this.base+"/greeting/1", Message.class, null,null);
+
 		assertTrue(result!=null && result.getId()!=null);
 	}
 
@@ -52,6 +53,7 @@ public class EndpointTest {
 	@Test
 	public void messageNotFoundByID() {
 		Message result = restTemplate.getForObject(this.base+"/greeting/2", Message.class, null,null);
+
 		assertTrue(result!=null && result.getId()==null);
 	}
 
@@ -61,7 +63,10 @@ public class EndpointTest {
 		Message found = restTemplate.getForObject(this.base + "/greeting/1", Message.class, null, null);
 		// change the message.
 		found.setDescription("This is a new message!!");
-		Message update = restTemplate.postForObject(this.base + "/greeting/updateMessage", found,Message.class);
+
+		// update message
+		Message update = restTemplate.postForObject(this.base + "/greeting/updateMessage", found, Message.class);
+
 		assertTrue(update.getDescription().equals("This is a new message!!"));
 	}
 
