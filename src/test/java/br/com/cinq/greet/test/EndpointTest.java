@@ -40,7 +40,6 @@ public class EndpointTest {
 		assertTrue(result!=null);
 	}
 
-
 	// retrieve message by id.
 	@Test
 	public void retrieveMessageOfDayByID() {
