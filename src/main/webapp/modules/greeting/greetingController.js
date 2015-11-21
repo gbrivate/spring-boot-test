@@ -18,7 +18,7 @@
         var vm = this;
 
         /* the reason I created this variable is because
-           I don�t want to change the old description on the screen before do the update.
+           I don't want to change the old description on the screen before do the update.
          */
         vm.newDescription = '';
         // used to retrieve the Message by id.
