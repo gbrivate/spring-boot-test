@@ -39,7 +39,7 @@
         // call GreetingService -> updateMessage
         vm.updateMessage = function(){
             // ensure the field is not empty.
-            if (!vm.message || !vm.message.description || vm.message.description.length==0){
+            if (!vm.newDescription || vm.newDescription.length==0){
                 console.log("Empty field.")
                 return;
             }
